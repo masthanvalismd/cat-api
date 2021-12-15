@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.btn {
+  font-size: 1rem;
+  width: 15%;
+  background-color: rgb(53, 121, 223);
+  border-radius: 5px;
+  padding: 5px;
+}
+.btn:hover {
+  background-color: rgb(32, 220, 233);
+  cursor: pointer;
+}
+.CatImage {
+  display: block;
+  padding-top: 3rem;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+}
+.image {
+  width: 50%;
+  text-align: center;
+}
+h3 {
+  font-style: italic;
+  font-size: 2rem;
+  font-family: roboto, sans-serif;
+  padding-bottom: 2rem;
+}
